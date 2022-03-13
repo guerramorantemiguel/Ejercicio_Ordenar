@@ -1,4 +1,10 @@
-class :
+from collections import defaultdict
+
+class segmento:
     def __init__(self):
         while True:
-          self.tabla = 
+          self.tabla = defaultdict(list)
+          
+
+
+

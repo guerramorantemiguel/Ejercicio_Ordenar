@@ -7,5 +7,5 @@ class ordenacion_dicotomica:
               if self.tabla[j] < self.tabla[i]:
                  self.tabla[j], self.tabla[i] = self.tabla[i], self.tabla[j]
                 print(self.tabla)
-              else:
+              
                 return self, tabla
